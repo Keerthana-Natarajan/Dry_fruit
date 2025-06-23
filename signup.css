@@ -2,14 +2,13 @@ a{
     text-decoration: none;
 }
 
-:root{
+
+:root {
     --logoclr:rgb(72, 26, 26);
     --font1: "Merienda", cursive;
     --font3: "Ephesis", cursive;
     --font2:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
-}
-:root {
             --primary-color:rgb(98, 5, 5);
             --dark-color: rgb(98, 5, 5);
             --light-color: #f5f5f5;
@@ -107,43 +106,50 @@ a{
 /* =====================login============== */
 
 
-.login {
-  margin: 50px auto;
-  /* align-items: center; */
+
+
+.signup-form {
+      margin: 50px auto;
   background: white;
   padding: 30px;
-  width: 100%;
-  max-width: 350px;
+  width: 90%;
+  max-width: 420px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   border-radius: 10px;
 }
 
-.login h1 {
+.signup-form h1 {
   text-align: center;
   margin-bottom: 20px;
   color: #333;
 }
 
-.login form input[type="text"],
-.login form input[type="password"] {
+.signup-form form input {
   width: 100%;
   padding: 12px;
-  margin: 10px 0;
+  margin: 8px 0;
   border: 1px solid #ccc;
   border-radius: 6px;
 }
 
-.password {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.terms {
+  
+justify-content: left;
+gap: 3px;
+ display: flex;
   font-size: 14px;
-  margin-bottom: 20px;
+  margin: 10px 0;
+}
+.terms input[type="checkbox"]{
+    width: 40px;
+    position: relative;
+    bottom: 4px;
 }
 
-.password a {
-  text-decoration: none;
+.terms a {
+  
   color: #007bff;
+  text-decoration: none;
 }
 
 button {
@@ -171,12 +177,12 @@ button.facebook {
   gap: 8px;
 }
 
-.signup {
+.login-link {
   text-align: center;
   margin-top: 20px;
 }
 
-.signup a {
+.login-link a {
   color: #007bff;
   text-decoration: none;
 }

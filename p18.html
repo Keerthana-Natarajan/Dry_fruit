@@ -19,127 +19,119 @@
 </head>
 
 <body>
-    <div class="box1">
-
-
+    <div class="top-banner">
         <p>We have 200+ dry fruit outlets across India!</p>
     </div>
-    <!-- ------------------------logo and nav-------------- -->
-    <nav>
-        <div class="box2">
 
-            <div class="logo"><i class="fa-brands fa-nutritionix"></i> Healthy Home</div>
-
-            <div class="center">
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./contact.html">Contact us</a></li>
-
-                </ul>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fa-brands fa-nutritionix"></i> Healthy House
             </div>
-
-
-            <div class="icon">
-                <ul>
-                    <li><a href="./login.html"><i class="fa-regular fa-user"></i></a></li>
-                    <li><a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
-                </ul>
-            </div>
-
+            
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+               
+                <li><a href="contact.html">Contact</a></li>
+                <li class="nav-icons">
+                   <a href="login.html"><i class="far fa-user"></i></a>
+                    <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+                </li>
+            </ul>
         </div>
-
     </nav>
 
-
-
-    <!-- ====================Product============== -->
-    <div class="product">
-        <div class="box3">
-            <img src="./image/0002306_black-sesame-seeds-kala-til_360.jpeg" alt="#">
-        </div>
-        <div class="box4">
-            <h1>black sesame</h1>
-            <h3>Rs.300</h3>
-            <form action="#">
-                <label for="#">Size:</label> 
-                <select name="#" id="#">
-                    <option value="#">250g</option>
-                    <option value="#">1kg</option>
-                    <option value="#">1.5kg</option>
-                </select>
-                <label for="#">Qty:</label> 
-                <select name="#" id="#">
-                    <option value="#">1</option>
-                    <option value="#">2</option>
-                    <option value="#">3</option>
-                    <option value="#">4</option>
-                    <option value="#">5</option>
-                    <option value="#">6</option>
-                    <option value="#">7</option>
-                    <option value="#">8</option>
-                    <option value="#">9</option>
-                    <option value="#">10</option>
-                </select>
-
-            </form>
-            <div class="but">
-                <a href="./cart.html"> <button>Add cart</button> </a>
-                <button>buy it now</button>
-            </div>
-            <hr>
-            <!-- <button>buy it now</button> -->
-            <p><strong> Description:</strong> Jumbo Almonds are rich in Qualities and benifits , Jumbo almonds help in
-                reducing the Hunger and reduce the intake of calories .These Almonds can be used to Extract oil and Milk
-                , Jumbo Almonds are long in nature and Extra bit in sweetness.
-            </p>
-        </div>
-
-    </div>
-
-
-
-    <!-- ============footer====================== -->
-
-    <div class="box5">
-        <footer>
-            <div class="last">
-                <p><a href="./index.html"><i class="fa-brands fa-nutritionix"></i> Healthy house</a></p>
-                <ul>
-                    <h1>INFORMATION</h1>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Shopping</a></li>
-                    <li><a href="#">Bulk Ordering</a></li>
-
-                </ul>
-                <ul>
-                    <h1>CUSTOMER SERVICE</h1>
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Return Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-
-                </ul>
-                <div class="box6">
-                    <h3>NEWSLETTER</h3>
-                    <input type="text">
-                    <p>NR TOWERS, 17th Cross, Sector 4, 19th Main Rd, HSR Layout, Bengaluru - 560102</p>
-                    <ul>
-                        <li><i class="fa-brands fa-twitter"></i></li>
-                        <li><i class="fa-brands fa-facebook-f"></i></li>
-                        <li><i class="fa-brands fa-whatsapp"></i></li>
-                    </ul>
+    <!-- Product Page -->
+    <div class="product-page">
+        <div class="container">
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="./image/0002306_black-sesame-seeds-kala-til_360.jpeg" alt="Premium Almonds">
+                </div>
+                <div class="product-details">
+                    <h1>Black sesame</h1>
+                    <h3>₹300 / 250g</h3>
+                    
+                    <div class="product-options">
+                        <form>
+                            <label for="size">Size:</label>
+                            <select id="size" name="size">
+                                <option value="250g">250g</option>
+                                <option value="500g">500g</option>
+                                <option value="1kg">1kg</option>
+                            </select>
+                            
+                            <label for="quantity">Quantity:</label>
+                            <select id="quantity" name="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </form>
+                        
+                        <div class="product-buttons">
+                            <a href="cart.html" class="btn">Add to Cart</a>
+                            <a href="checkout.html" class="btn">Buy Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-description">
+                        <h3>Description</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eligendi aut tempora reiciendis harum eius impedit laboriosam minima, iste non earum, ipsa quo quasi aperiam maiores deserunt, illum quibusdam iusto?</p>
+                        
+                    </div>
                 </div>
             </div>
-        </footer>
-        <hr>
-
-        <p>Copyright © 2025 Healthy House . All Rights Reserved.</p>
-
-
-
+        </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Healthy House</h3>
+                    <p>Your trusted source for premium quality dry fruits and nuts since 2010.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Healthy Street, Bangalore, India</p>
+                    <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                    <p><i class="fas fa-envelope"></i> info@healthyhouse.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Healthy House. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
