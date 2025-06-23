@@ -101,7 +101,7 @@ html, body {
 /* -----login------ */
 .login {
   margin: 50px auto;
-  /* align-items: center; */
+ 
   background: white;
   padding: 30px;
   width: 100%;
@@ -251,7 +251,7 @@ button.facebook {
   }
 
   .login {
-    margin: 10px;
+    margin: 50px auto;
     padding: 20px;
   }
 
