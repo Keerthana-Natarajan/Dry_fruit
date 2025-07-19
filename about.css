@@ -136,6 +136,7 @@ a{
 
 }
 
+
 .box4 img{
    float: left;
     margin: 30px;
@@ -145,7 +146,7 @@ width: 400px;
 
 .box4 h3{
     /* margin: 50px; */
-    padding-top: 40px;
+    padding: 10px 0px 0px 20px;
     font-family: var(--font2);
     font-size: 28px;
     word-spacing: 5px;
@@ -155,7 +156,7 @@ color: var(--logoclr);
 
 .box4 p{
     word-spacing: 7px;
-    /* margin: 30px; */
+    padding: 20px;
     font-family: var(--font2);
     font-size: 18px;
 }
@@ -336,6 +337,7 @@ color: var(--logoclr);
         flex-wrap: wrap;
        justify-content: center;
         gap: 15%;
+        
         align-items: center;
     }
     

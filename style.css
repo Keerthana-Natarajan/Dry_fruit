@@ -141,7 +141,7 @@ a{
 }
 .box4 .product{
     margin: 30px;
-    height: 400px;
+    height: 420px;
     width: 250px;
     border: 1px solid rgb(197, 192, 192);
     box-shadow: 1px 1px 5px gray;
@@ -149,12 +149,7 @@ a{
     /* padding: 10px 0px 0px 0px; */
         }
 
-        .box4 img:hover{
-           transition: all 1s;
-           height: 260px;
-           width: 250px;
-                }
-
+     
 
     .product img
     {
@@ -162,6 +157,12 @@ a{
             height: 250px;
             width: 246px;
     }
+
+       .box4 img:hover{
+           transition: all 1s;
+           height: 255px;
+           width: 250px;
+                }
 
     .product h1{
         font-size: 20px;

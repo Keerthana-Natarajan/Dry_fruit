@@ -84,7 +84,7 @@ a{
             transition: var(--transition);
         }
 
-        .nav-list a: hover {
+        .nav-list a:hover {
             color: var(--primary-color);
         }
 
@@ -168,7 +168,7 @@ a{
             text-align: center;
         }
 
-        .btn: hover {
+        .btn:hover {
             background: rgb(98, 5, 5);
             transform: translateY(-3px);
             box-shadow: var(--box-shadow);
